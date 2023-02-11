@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png">
+    <title>Encriptador Oracle-Alura</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="cuadro_1">
+            <textarea class="textarea" placeholder="Escribe el Texto a Encriptar o Desencriptar Aqui"></textarea>
+            <div class="contenedor_botones">
+                <input type="button" value="Encriptar" class="boton_encriptar" onclick="encriptar()">
+                <input type="button" value="Desencriptar" class="boton_desencriptar" onclick="desencriptar()">
+            </div>
+        </section>
+        <section class="cuadro_2">
+            <textarea class="mensaje" cols="20" rows="15" placeholder="No se encontró ningun tipo de mensaje"></textarea>
+            <div>
+                <input type="button" value="Copiar" class="copiar" onclick="copiar()">
+            </div>
+        </section>
+    </main>
+    <footer>
+        © John Enoc Boada Carranza
+        <br> 
+        Encriptador y Desencriptador
+        <h3>Redes Sociales</h3>
+        <nav class="lista">
+            <ul>
+                <li class="facebook">
+                    <a href="https://www.facebook.com/johnenoc.boadacarranza"><img src="img/pngwing.png" alt="facebook"></a>
+                </li>
+                <li class="instagram">
+                    <a href="https://www.instagram.com/cristalsmash_xd/"><img src="img/instagram.png" alt="instagram"></a>
+                </li>
+                <li class="linkedin">
+                    <a href="https://www.linkedin.com/in/john-boada-carranza/"><img src="img/linkedin.png" alt="linkedin"></a>
+                </li>
+                <li class="alura">
+                    <a href="https://app.aluracursos.com/user/johnenocboada"><img src="img/logo1.png" alt="alura" class="alura"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>

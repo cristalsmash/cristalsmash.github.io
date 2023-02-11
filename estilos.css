@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9e9a9a;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    
+}
+
+header img{
+    margin: 5px 0 10px 50px;
+    padding: 5px;
+    filter: drop-shadow(5px 5px 2px rgb(72, 48, 206));
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    height: 100%;
+    background-color: rgb(243, 238, 164);
+    border-radius: 20px;
+}
+
+.cuadro_1{
+    width: 60%;
+    margin: 20px 0 15px 40px;
+    box-shadow: 0px 0px 30px 10px rgb(40, 121, 243);
+}
+
+.textarea{
+    width: 80%;
+    height: 60%;
+    resize: none;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    border-style: bold;
+    border-width: 5px;
+    border-color: aqua;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(243, 238, 164);
+}
+
+.contenedor_botones{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton_encriptar, .boton_desencriptar{
+    width: 30%;
+    height: 40px;
+}
+
+.boton_encriptar{
+    background-color: rgb(72, 48, 206);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+.boton_encriptar:hover{
+    background-color: rgb(238, 93, 93);
+    color: rgb(93, 69, 226);
+    font-size: 25px;
+    box-shadow: 0px 5px 10px 5px rgb(42, 70, 230);
+}
+
+.boton_desencriptar{
+    background-color: rgb(72, 48, 206);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+.boton_desencriptar:hover{
+    background-color: rgb(238, 93, 93);
+    color: rgb(93, 69, 226);
+    font-size: 25px;
+    box-shadow: 0px 5px 10px 5px rgb(42, 70, 230);
+}
+
+.cuadro_2{
+    width: 40%;
+    margin: 20px 40px ;
+    box-shadow: 0px 0px 30px 10px rgb(40, 121, 243);
+}
+
+.mensaje{
+    height: 380px;
+    width: 455px;
+    background: rgb(243, 238, 164);
+    background-image: url("img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 20px;
+    padding-left: 85px;
+    padding-right: 75;
+    padding-bottom: 45px;
+    text-align: initial;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copiar{
+    background-color: rgb(72, 48, 206);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    padding: 6px 12px 6px 12px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.copiar:hover{
+    background-color: rgb(238, 93, 93);
+    color: rgb(93, 69, 226);
+    font-size: 25px;
+    box-shadow: 0px 5px 10px 5px rgb(42, 70, 230);
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+
+}
+
+footer{
+    font-size: 28px;
+    text-align: center;
+    margin: 60px 0 20px 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: 1s;
+}
+
+footer:hover{
+    text-shadow: 2px 4px rgb(46, 150, 235);
+    font-weight: bold;
+}
+
+footer h3{
+    padding-top: 25px;
+}
+
+.lista{
+    margin-top: 30px;
+}
+
+.instagram, .linkedin, .alura, .facebook{
+    display: inline;
+    padding-left: 15px;
+    transition: 1s;
+}
+
+.instagram:hover{
+    filter: drop-shadow(5px 5px 2px rgb(248, 43, 105));
+}
+
+.linkedin:hover{
+    filter: drop-shadow(5px 5px 2px rgb(248, 43, 105));
+}
+
+.alura:hover{
+    filter: drop-shadow(5px 5px 2px rgb(248, 43, 105));
+}
+
+.facebook:hover{
+    filter: drop-shadow(5px 5px 2px rgb(248, 43, 105));
+}
+
+.alura{
+    padding-bottom: 15px;
+}
